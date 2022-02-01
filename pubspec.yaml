@@ -1,0 +1,38 @@
+name: colco_poc
+description: Colco POC app.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  phosphor_flutter: ^1.4.0
+  provider: ^6.0.2
+  dartz: ^0.10.1
+  get_it: ^7.2.0
+  hive: ^2.0.5
+  path_provider: ^2.0.8
+  cached_network_image: ^3.2.0
+  faker: ^2.0.0
+  jiffy: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  hive_generator: ^1.1.2
+  build_runner: ^2.1.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
