@@ -19,6 +19,7 @@ class UserLocalDataSource implements IUserLocalDataSource {
     } catch (e) {
       CacheException();
     }
+    return null;
   }
 
   @override

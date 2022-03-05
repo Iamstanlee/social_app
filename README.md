@@ -1,16 +1,35 @@
-# colco_poc
+# Social Media Proof Of Concept For Colco Interview
 
-A new Flutter project.
+### Screenshots
 
-## Getting Started
+<p>
+    <img src="https://raw.githubusercontent.com/Iamstanlee/social_app/main/screenshots/s1.png" width="200px" hspace="10"/>
+    <img src="https://raw.githubusercontent.com/Iamstanlee/social_app/main/screenshots/s2.png" width="200px" hspace="10"/>
+    <img src="https://raw.githubusercontent.com/Iamstanlee/social_app/main/screenshots/s3.png" width="200px" hspace="10"/>
+</p>
 
-This project is a starting point for a Flutter application.
+### Run Locally
 
-A few resources to get you started if this is your first Flutter project:
+Clone the project
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```bash
+  git clone https://github.com/Iamstanlee/social_app.git
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Go to the project directory
+
+```bash
+  cd social_app
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Run the app android or ios simulator
+
+```bash
+  flutter run
+```

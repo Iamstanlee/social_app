@@ -6,7 +6,6 @@ import 'package:colco_poc/presentation/providers/user_provider.dart';
 import 'package:colco_poc/presentation/widgets/comment_box.dart';
 import 'package:colco_poc/presentation/widgets/post_item.dart';
 import 'package:colco_poc/presentation/widgets/user_comment_item.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

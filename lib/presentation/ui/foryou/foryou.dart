@@ -4,7 +4,6 @@ import 'package:colco_poc/core/utils/view_state.dart';
 import 'package:colco_poc/presentation/providers/posts_provider.dart';
 import 'package:colco_poc/presentation/widgets/loading_indicator.dart';
 import 'package:colco_poc/presentation/widgets/post_item.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
